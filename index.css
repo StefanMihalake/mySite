@@ -1,0 +1,36 @@
+body, html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(34, 34, 37);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#c1{
+    font-size:100px;
+    top: 40%;
+    transform: translateY(-75%);
+    position: absolute;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    #c1{
+        font-size:80px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    #c1{
+        font-size:40px;
+    }
+}
